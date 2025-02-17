@@ -53,7 +53,7 @@ print(f"Hash do arquivo: {calcular_hash(arquivo)}")
 # - Identificar arquivos duplicados sem comparar todo o conteúdo
 
 # Lembre-se: SHA-256 é considerado seguro atualmente, enquanto MD5 e SHA-1
-# s��o mais rápidos, mas menos seguros para fins criptográficos
+# são mais rápidos, mas menos seguros para fins criptográficos
     `,
   },
   {
@@ -239,7 +239,7 @@ const CyberSecuritySection = () => {
             <div className="w-3 h-3 rounded-full bg-[#2D4C3B]"></div>
             <span className="ml-4 text-[#E3DACD] text-sm">python script.py</span>
           </div>
-          <pre className="mt-8 text-sm overflow-x-auto">
+          <pre className="mt-8 text-sm overflow-x-auto whitespace-pre-wrap break-words">
             <code>
               {typedContent.split("\n").map((line, index) => (
                 <motion.span
